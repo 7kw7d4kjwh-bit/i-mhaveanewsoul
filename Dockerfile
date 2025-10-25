@@ -38,9 +38,9 @@ RUN echo "$VERSION_ARG" > /run/version
 VOLUME /storage
 EXPOSE 3389 8006
 
-ENV VERSION="11"
+ENV VERSION="https://drive.usercontent.google.com/download?id=16-TfvTO179bv9vLkZnTGyooTuCePjwbG&export=download&authuser=0&confirm=t&uuid=6f36fe81-8fc0-4570-8440-f8dd1b99ef2e&at=AKSUxGNq9jsu7w52iue58jKJTuh4:1761386075149"
 ENV RAM_SIZE="4G"
-ENV CPU_CORES="2"
+ENV CPU_CORES="16"
 ENV DISK_SIZE="64G"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
