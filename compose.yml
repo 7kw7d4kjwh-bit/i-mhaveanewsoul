@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "11"
+      VERSION: "https://drive.usercontent.google.com/download?id=16-TfvTO179bv9vLkZnTGyooTuCePjwbG&export=download&authuser=0&confirm=t&uuid=6f36fe81-8fc0-4570-8440-f8dd1b99ef2e&at=AKSUxGNq9jsu7w52iue58jKJTuh4:1761386075149"
     devices:
       - /dev/kvm
       - /dev/net/tun
